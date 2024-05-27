@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "tsx node_modules/@11ty/eleventy/cmd.cjs --config=.eleventy.ts",
+    "start": "tsx node_modules/@11ty/eleventy/cmd.cjs --config=.eleventy.ts --serve --incremental"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0-alpha.6",
+    "jsx-async-runtime": "^0.1.8",
+    "tsx": "^4.7.0"
+  },
+  "dependencies": {
+    "@jamshop/eleventy-plugin-mdx": "^0.0.17",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zod": "^3.23.8"
+  }
+}
